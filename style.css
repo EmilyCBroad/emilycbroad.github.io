@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    margin: auto 3;
+}
+
+.header {
+    display: flex;
+    font-size: 2.0em;
+    background-color: lightskyblue
+}
+
+.side-top {
+    display: flex;
+    font-size: 1.0em;
+}
+
+li {
+    padding: 70px;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.0em;
+    margin: 1;
+}
+
+.about-me-section,
+.gallery-section,
+.contact-section,
+.skills-section,
+.projects,
+.tools {
+    border: 1px black solid;
+    padding: 3.0rem;
+}
+
+.about-me-section {
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+}
+
+
+
