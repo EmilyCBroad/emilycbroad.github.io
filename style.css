@@ -1,49 +1,59 @@
 body {
     box-sizing: border-box;
     margin: auto 3;
-}
-
-.header {
+  }
+  nav {
+    max-width: 800px;
+    margin: auto;
     display: flex;
-    font-size: 2.0em;
-    background-color: lightskyblue
-}
-
-.side-top {
+    flex-wrap: wrap;
+  }
+  .header {
     display: flex;
-    font-size: 1.0em;
-}
-
-li {
+    font-size: 2em;
+    height: 70px;
+    background-image: linear-gradient(to bottom right, violet, rgb(0, 162, 255));
+  }
+  .side-top {
+    display: flex;
+    font-size: 1em;
+  }
+  nav {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav a {
+    flex-grow: 1;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    
+  }
+  li {
     padding: 70px;
-}
-
-.main-nav {
+  }
+  .main-nav {
     display: flex;
     list-style: none;
-    font-size: 1.0em;
+    font-size: 1em;
     margin: 1;
-}
-
-.about-me-section,
-.gallery-section,
-.contact-section,
-.skills-section,
-.projects,
-.tools {
+  }
+  .about-me-section,
+  .gallery-section,
+  .contact-section,
+  .skills-section,
+  .projects,
+  .tools {
     border: 1px black solid;
-    padding: 3.0rem;
-}
-
-.about-me-section {
+    padding: 3rem;
+  }
+  .about-me-section {
     text-align: center;
     justify-content: center;
-}
-
-.container {
+  }
+  .container {
     display: grid;
     gap: 1rem;
-}
-
-
-
+  }
