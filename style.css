@@ -57,3 +57,11 @@ body {
     display: grid;
     gap: 1rem;
   }
+
+  .doubt {
+    font-size: 2em;
+  }
+
+  .kyo {
+    font-size: 2em;
+  }
